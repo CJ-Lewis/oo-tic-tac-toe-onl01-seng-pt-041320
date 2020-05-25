@@ -129,7 +129,6 @@ end
 def play
   until over? == true
     turn
-    self.play
   end
 
   if won?
