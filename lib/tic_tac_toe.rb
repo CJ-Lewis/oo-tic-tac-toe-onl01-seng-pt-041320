@@ -104,8 +104,8 @@ class TicTacToe
   end
 
 #over?
-def over?
-  won? || full? || draw?
+  def over?
+   won? || full? || draw?
 end
 
 #winner?
